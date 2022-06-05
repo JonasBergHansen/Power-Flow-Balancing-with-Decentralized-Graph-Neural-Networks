@@ -6,11 +6,14 @@ This repository provides code for solving PF with Graph Neural Networks. In part
 
 The code is based on Python 3.9.7, TensorFlow 2.5.0, and [Spektral]() 1.0.6. 
 
-The code can be executed by installing an Anaconda environment from the `environment.yml` that can be found [here](https://github.com/JonasBergHansen/pf_arma_gnn_example/blob/main/environment_files/environment.yml):
-
+The code can be executed by installing an Anaconda environment from the `environment_{os}.yml`:
 ```bash
-conda env create -f environment.yml
+conda env create -f environment_{os}.yml
 ``` 
+
+The YAML file can be found [here](https://github.com/JonasBergHansen/pf_arma_gnn_example/blob/main/environment_files/environment_windows.yml) for Windows 10 and [here](https://github.com/JonasBergHansen/pf_arma_gnn_example/blob/main/environment_files/environment_linux.yml) for Linux (made with Ubuntu 20.04).
+
+
 
 ---
 ## Files
