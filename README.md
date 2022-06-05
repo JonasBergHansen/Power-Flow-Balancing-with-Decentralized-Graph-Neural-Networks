@@ -11,7 +11,7 @@ The code can be executed by installing an Anaconda environment from the `environ
 conda env create -f environment_{os}.yml
 ``` 
 
-The YAML file can be found [here](https://github.com/JonasBergHansen/pf_arma_gnn_example/blob/main/environment_files/environment_windows.yml) for Windows 10 and [here](https://github.com/JonasBergHansen/pf_arma_gnn_example/blob/main/environment_files/environment_linux.yml) for Linux (made with Ubuntu 20.04).
+The YAML file can be found [here](/environment_files/environment_windows.yml) for Windows 10 and [here](/environment_files/environment_linux.yml) for Linux (made with Ubuntu 20.04).
 
 
 
