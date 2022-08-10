@@ -13,6 +13,7 @@ conda env create -f environment_{os}.yml
 
 The YAML file can be found [here](/environment_files/environment_win-64.yml) for Windows 10 and [here](/environment_files/environment_linux-64.yml) for Linux (made with Ubuntu 20.04). An equivalent file with Tensorflow 2.6.0 for Intel Macs can be found [here](/environment_files/environment_osx-64.yml) (not tested).
 
+If the environment created from the YAML file for some reason does not work, a compatible environment can be made from scratch by installing the above versions of Python, Tensorflow and Spektral, along with their dependencies and a compatible version of Matplotlib.
 
 
 ---
