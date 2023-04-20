@@ -132,4 +132,4 @@ dmypy.json
 .pyre/
 
 generate_data_example/data/*
-!generate_data_example/data.gitkeep
+!generate_data_example/data/.gitkeep
