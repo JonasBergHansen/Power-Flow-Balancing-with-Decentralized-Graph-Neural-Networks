@@ -27,7 +27,7 @@ Folders named flattened contain the data representations used by the Global MLP,
 
 A more in-depth explanation of the strucure of the data is given [here](/data/data_setup.md).
 
-An example of how to reproduce the data generation is given in [here](/generate_data_example). Do note that the code implementations in this folder are not the most efficient and only really suitable for offline dataset construction. Also, the Matlab script for the grid generation requires [MATPOWER](https://matpower.org/). 
+An example of how to reproduce the data generation and construction is given [here](/generate_data_example). Do note that the code implementations in this folder are not the most efficient and only really suitable for offline dataset construction. Also, the Matlab script for the grid generation requires [MATPOWER](https://matpower.org/). 
 
 ---
 ## Execution
