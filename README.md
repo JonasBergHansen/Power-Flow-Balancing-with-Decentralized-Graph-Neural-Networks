@@ -27,6 +27,8 @@ Folders named flattened contain the data representations used by the Global MLP,
 
 A more in-depth explanation of the strucure of the data is given [here](/data/data_setup.md).
 
+An example of how to reproduce the data generation is given in [here](/generate_data_example). Do note that the code implementations in this folder are not the most efficient and only really suitable for offline dataset construction. Also, the Matlab script for the grid generation requires [MATPOWER](https://matpower.org/). 
+
 ---
 ## Execution
 To execute the experiments, the data found in the above link must be placed inside the [data folder](/data). The experiments can then be executed by running the script files in the [code folder](/code). So, for instance, to perform the training and testing for the first experiment from the terminal, navigate to the code folder and execute the following
