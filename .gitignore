@@ -130,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+generate_data_example/data/*
+!generate_data_example/data.gitkeep
