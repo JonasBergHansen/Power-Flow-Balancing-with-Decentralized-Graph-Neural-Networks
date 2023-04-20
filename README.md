@@ -44,10 +44,12 @@ Parameters such as batch size, learning rate and number of training epochs can b
 
 Please, cite the original paper if you are using our PF solver in your research
 
-    @inproceedings{hansen2021power,
-    title={Power Flow Balancing with Decentralized Graph Neural Networks}, 
-    author={Jonas Berg Hansen and Stian Normann Anfinsen and Filippo Maria Bianchi},
-    year={2021},
-    eprint={2111.02169},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}}
+````bibtex   
+@article{hansen2022power,
+  title={Power flow balancing with decentralized graph neural networks},
+  author={Hansen, Jonas Berg and Anfinsen, Stian Normann and Bianchi, Filippo Maria},
+  journal={IEEE Transactions on Power Systems},
+  year={2022},
+  publisher={IEEE}
+}
+````
